@@ -230,8 +230,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #999999
 }
 .btn-primary.btn-fill{
-    background-color: #3472F7;
-    border-color: #3472F7;
+    background: #41B1F1;
+    border-color: #3C9FD8
 }
 .btn-info.btn-fill{
     background-color: #2C93FF;
@@ -254,8 +254,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #888888;
 }
 .btn-primary.btn-fill:hover, .btn-primary.btn-fill:focus, .btn-primary.btn-fill:active, .btn-primary.btn-fill.active, .open .dropdown-toggle.btn-primary.btn-fill{
-    border-color: #1D62F0;
-    background-color: #1D62F0;
+    background-color: #3C9FD8;
 }
 .btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open .dropdown-toggle.btn-info.btn-fill {
     background-color: #1084FF;
@@ -657,15 +656,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-position: center center;
     background-size: cover;
     height: auto;
-    left: 0;
     min-height: 100%;
     min-width: 100%;
-    position: absolute;
-    top: 0;
     width: auto;
 }
 .cover{
-    position: fixed;
+    position: absolute;
     opacity: 1;
     background-color: rgba(0,0,0,.6);
     left: 0px;
@@ -809,10 +805,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 @media (min-width:991px){        
     .main .subscribe .form-group{
         width: 190px;
-    }   
-    .footer{
-        position: fixed;
-        bottom: 20px;
     }
 }
 @media (min-width:1200px){        
@@ -827,13 +819,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 /*          For demo purpose         */
 
 
-
-.fixed-plugin{
-    position: fixed;
-    top:0px;
-    right: 50px;
-    z-index: 1031;
-}
 .fixed-plugin .fa-cog{
     color: #FFFFFF;
     background-color: rgba(0,0,0,.2);
